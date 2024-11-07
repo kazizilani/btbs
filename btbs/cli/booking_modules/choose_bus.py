@@ -16,7 +16,7 @@ def Choose_Bus(selected_from, selected_to):
     
     #?ensure that at least one bus goes from source to destination
     if len(avaialble_busses.stack) > 0:
-        print("Bus No. \t Bus Name \t Empty \t Fare")
+        print("B No. \t Bus Name \t Seats \t Fare")
         for bus in avaialble_busses.stack:
             print(f"{bus['bus-id']} \t {bus['bus-name']} \t {bus["available-seats"]} \t {bus['fare']}")
     
